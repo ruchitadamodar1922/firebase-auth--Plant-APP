@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/plantbg"
+    tools:context=".dashboardActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/logo1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/iconplant"/>
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:padding="30dp"
+        android:text="@string/cap"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/button"
+        android:elevation="100dp"
+        android:fontFamily="@font/adamina"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/loginin"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_button"
+        android:elevation="100dp"
+        android:fontFamily="@font/adamina"
+        android:text="Login in"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#00838F"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>
